@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import imagers from './images/us.jpeg';
-import icon from './images/free.png';
+import icon from './images/us.png';
 import './index.css'
 
 function BookList () {
@@ -52,7 +52,7 @@ const PageDescription = () => {
 }
 
 const MoreInfo = () => {
-  return <button className='more-info'>More Info</button>
+  return <button className='more-info'><a href="http://www.drinksunice.com">More Info</a></button>
 }
 
 
