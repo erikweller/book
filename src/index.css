@@ -1,0 +1,189 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    
+    
+}
+
+.booklist{
+    display: grid;
+
+}
+
+@media screen and (min-width: 768px){
+    .booklist{
+        margin-top: 75px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        
+        
+    }
+    .book{
+        
+        background-color: rgb(247, 250, 253);
+        padding: 1.5rem;
+        padding-top: .2rem;
+        padding-bottom: 3rem;
+        border-radius: 6px;
+        border: 1px solid rgb(231, 231, 231);
+        
+        
+    }
+
+    .page-description{
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 1px;
+        
+        border: 1px solid rgb(190, 189, 189);
+        color: aliceblue;
+        background-color: black;
+        justify-content: center;
+        height: 20vh;
+       
+        font-size: 3rem;
+        line-height: 50px;
+        font-weight: 200;
+    }
+
+    .more-info{
+        margin-bottom: -35px;
+        margin-right: -10px;
+        float: right;
+        width: 80px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(56, 56, 248);
+        color: antiquewhite;
+    }
+    .icon{
+        
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        padding-top: 3px;
+        padding-left: 5px;
+        margin-left: -27px;
+        margin-top: -5px;
+        rotate: 10deg;
+        
+
+    }
+
+    .image{
+        border-radius: 4px;
+        margin-top: 25px;
+        
+    }
+    .page-title{
+        margin: 0;
+        padding-top: 40px;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 8rem;
+        background-color: rgb(76, 212, 212);
+        
+    }
+
+    .title{
+        font-size: 1.5rem;
+    }
+    .author{
+        font-size: 1.1rem;
+        
+    }
+    
+    .description{
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.booklist{
+width: 90vw;
+display: grid;
+margin: 5rem auto;
+gap: 2rem;
+
+}
+
+@media screen and (min-width: 768px){
+    .booklist{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .image{
+        border-radius: 4px;
+    }
+
+    .book{
+        background-color: rgb(247, 250, 252);
+        padding: 2rem;
+        border-radius: 6px;
+        border: 1px solid rgb(225, 229, 233);
+        
+        
+    }
+
+    .title{
+        font-size: 1.5rem;
+        margin: 3px;
+        text-align: left;
+    }
+    .author{
+        font-size: 1rem;
+        color: cornflowerblue;
+    }
+
+    .description{
+        margin-top: 8px;
+    }
+    
+} */
