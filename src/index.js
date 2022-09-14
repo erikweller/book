@@ -52,7 +52,7 @@ const PageDescription = () => {
 }
 
 const MoreInfo = () => {
-  return <button className='more-info'><a href="http://www.drinksunice.com">More Info</a></button>
+  return <button className='more-info'><a href="http://www.drinksunice.com" className='more-info-text'>More Info</a></button>
 }
 
 
@@ -75,7 +75,7 @@ const Author = () => {
 }
 
 const Description = () => {
-  return <p>This is a story all about how my life got flipped turned upside down</p>
+  return <p className='description'>This is a story all about how my life got flipped turned upside down</p>
 }
 
 
