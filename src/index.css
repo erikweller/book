@@ -26,6 +26,9 @@ body{
         
         
     }
+    .more-info-text{
+        color: aliceblue;
+    }
     .book{
         
         background-color: rgb(247, 250, 253);
