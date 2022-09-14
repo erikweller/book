@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import imagers from './images/us.jpeg';
-import icon from './images/us.png';
+import imagers from './images/us.jpeg';
+import icon from './images/free.png';
 import './index.css'
 
 function BookList () {
@@ -63,7 +63,7 @@ const Icon = () => {
 }
 
 const Image = () => {
-  return <img src='https://d3m2o2bzrl719s.cloudfront.net/photos/2014/06_June14/04/The_Daily_Celebrates_their_Season_premiere_Issue_with_Cover_Star_Gigi_Hadid/Selected/gallery_63537534186318750012947352_6_DAIL_20140604_PM_131.JPG' className='image' alt='' />
+  return <img src={imagers} className='image' alt='' />
 }
 
 const Title = () => {
